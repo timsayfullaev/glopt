@@ -4,6 +4,14 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="reviews__arrow reviews__arrow_right"><img src="icons/rounded_rectangle_2_copy_2_492.png" alt="rounded_rectangle_2_copy_2_492"></button>',
         centerMode: true,
         centerPadding: '0',
-        slidesToShow: 3
+        slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                slidesToShow: 1
+                }
+            }
+        ]
     });
 });

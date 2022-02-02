@@ -1,0 +1,131 @@
+@media (max-width: 1399px) {
+    .consultation {
+        &__wrapper {
+            padding-left: 146px;
+            padding-right: 146px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .header {
+        .contact {
+            flex-direction: column;
+            &__wrapper {
+                margin-right: 0;
+                margin-bottom: 4px;
+            }
+        }
+    }
+
+    .consultation {
+        &__wrapper {
+            padding-left: 56px;
+            padding-right: 56px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        .contact {
+            display: none;
+        }
+    }
+
+    .menu {
+        &__item {
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .intro {
+        padding-top: 152px;
+        &__title {
+            font-size: 55px;
+        }
+        &__subtitle {
+            font-size: 34px;
+        }
+        &__divider {
+            &::after, &::before {
+                width: 330px;
+            }
+        }
+    }
+
+    .advantages {
+        &__item {
+            flex-direction: column;
+        }
+        &__icon {
+            margin: 0 auto;
+            margin-bottom: 9px;
+        }
+        &__text {
+            width: 100%;
+        }
+        &__title {
+            text-align: center;
+        }
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .service {
+        &__text {
+            font-size: 18px;
+        }
+    }
+
+    .consultation {
+        &__wrapper {
+            padding-left: 41px;
+            padding-right: 41px;
+        }
+    }
+
+    .form {
+        &__input {
+            width: 200px;
+            &_textarea {
+                width: 100%;
+            }
+        }
+    }
+
+    .reviews {
+        &__slider {
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .questions {
+        &__wrapper {
+            width: 686px;
+        }
+    }
+
+    .footer {
+        &__logo {
+            p {
+                font-size: 14px;
+            }
+        }
+        .contact {
+            flex-direction: column;
+            &__wrapper {
+                margin-right: 0;
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
