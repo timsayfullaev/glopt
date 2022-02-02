@@ -1,0 +1,24 @@
+.contact {
+    display: flex;
+    &__wrapper {
+        text-align: right;
+        margin-right: 18px;
+    }
+    &__questions {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__phone {
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+        transition: all .25s;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}

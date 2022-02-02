@@ -1,0 +1,32 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    &__item {
+        border-right: 1px dotted #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            border-right: none;
+            padding-right: 0;
+        }
+    }
+    &__link {
+        font-size: 15px;
+        line-height: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 5px;
+        transition: all .25s;
+        &:hover {
+            color: $main-color;
+            border-bottom: 1px solid $main-color;
+        }
+    }
+}

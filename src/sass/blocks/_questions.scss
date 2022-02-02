@@ -1,0 +1,36 @@
+.questions {
+    padding-top: 62px;
+    padding-bottom: 79px;
+    background-image: url('../img/backgrounds/layers (1).jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__wrapper {
+        width: 896px;
+        background-color: rgba(255, 255, 255, .7);
+        margin: 0 auto;
+    }
+    &__title {
+        background-color: #25333c;
+        padding-top: 20px;
+        padding-bottom: 19px;
+        font-size: 19px;
+        line-height: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 0;
+        span {
+            font-size: 14px;
+            font-weight: 400;
+            display: block;
+        }
+    }
+    &__form {
+        padding-top: 17px;
+        padding-left: 37px;
+        padding-right: 37px;
+        padding-bottom: 25px;
+    }
+}

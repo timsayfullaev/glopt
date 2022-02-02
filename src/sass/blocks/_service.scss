@@ -1,0 +1,42 @@
+.service {
+    padding-top: 58px;
+    padding-bottom: 75px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &_agent {
+        background-image: url('../img/backgrounds/layers (3).jpg');
+
+    }
+    &_manager {
+        background-image: url('../img/backgrounds/layers (2).jpg');
+    }
+    &__icon {
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    &__text {
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 22px;
+        margin-bottom: 0;
+    }
+}

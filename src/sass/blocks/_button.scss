@@ -1,0 +1,29 @@
+.button {
+    background-color: $main-color;
+    font-size: 12px;
+    line-height: 9px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 18px 23px;
+    border: none;
+    border-radius: 36px;
+    transition: all .25s;
+    &:hover {
+        background-color: $main-color_hover;
+    }
+    &_big {
+        font-size: 15px;
+        line-height: 11px;
+        font-weight: 700;
+        padding: 23px 45px;
+    }
+    &_prices {
+        padding-left: 43px;
+        padding-right: 43px;
+    }
+    &_submit {
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+}

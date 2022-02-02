@@ -1,0 +1,33 @@
+.scheme {
+    background-color: #f3f3f3;
+    padding-top: 51px;
+    padding-bottom: 46px;
+    &__item {
+        margin-top: 43px;
+    }
+    &__icon {
+        width: 61px;
+        height: 57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: $main-color;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 0;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        text-align: center;
+        margin-top: 7px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,85 @@
+.intro {
+    background-image: url('../img/backgrounds/layers.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 132px;
+    padding-bottom: 82px;
+    &__lead {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    &__title {
+        font-family: 'Roboto Condensed';
+        font-size: 72px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $main-color;
+        text-align: center;
+        margin-top: 26px;
+        margin-bottom: 0;
+    }
+    &__subtitle {
+        font-family: 'Roboto Condensed';
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 9px;
+        margin-bottom: 0;
+    }
+    &__divider {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 100%;
+        margin: 0 auto;
+        margin-top: 38px;
+        position: relative;
+        &::after, &::before {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 400px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &::after {
+            right: 20px;
+        }
+        &::before {
+            left: 20px;
+        }
+    }
+    &__item {
+        margin-top: 27px;
+    }
+    &__icon {
+        height: 63px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 13px;
+        margin-bottom: 0;
+    }
+    &__wrapper {
+        text-align: center;
+        margin-top: 39px;
+    }
+}
