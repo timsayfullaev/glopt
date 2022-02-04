@@ -9,6 +9,7 @@
         url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -20,6 +21,7 @@
         url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -31,6 +33,7 @@
         url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -42,6 +45,7 @@
         url('../fonts/RobotoCondensed/RobotoCondensed-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -53,4 +57,5 @@
         url('../fonts/RobotoCondensed/RobotoCondensed-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
